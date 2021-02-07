@@ -1,0 +1,25 @@
+{
+  "name": "@culur/stylelint-config",
+  "version": "0.0.1",
+  "description": "Sharing Stylelint configurations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/culur/stylelint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/culur/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/culur/stylelint-config#readme",
+  "author": "Phạm Hồng Phúc <phamhongphuc.info@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "config",
+    "stylelint"
+  ],
+  "scripts": {},
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
