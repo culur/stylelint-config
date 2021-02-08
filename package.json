@@ -29,6 +29,7 @@
   "scripts": {
     "build": "run-s build:*",
     "build:tsc": "tsc",
+    "build:babel": "babel build --out-dir build --source-maps inline",
     "clean": "run-s clean:*",
     "clean:build": "rimraf build",
     "fix": "run-s fix:*",
@@ -46,6 +47,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
     "@cspell/dict-vi-vn": "^1.0.20",
     "@culur/prettier-config": "^0.1.0",
     "@semantic-release/changelog": "^5.0.1",
@@ -54,6 +57,7 @@
     "@semantic-release/github": "^7.2.0",
     "@semantic-release/npm": "^7.0.10",
     "@types/node": "^14.14.25",
+    "babel-plugin-module-resolver": "^4.1.0",
     "cspell": "^5.1.3",
     "cz-conventional-changelog": "^3.3.0",
     "dotenv-cli": "^4.0.0",
