@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
+    "version": "0.1",
+    "language": "en,vi",
+    "allowCompoundWords": true,
+    "import": ["node_modules/cspell-dict-vi-vn/cspell-ext.json"],
+    "words": [
+        // alphabetical order
+        "culur",
+        "czrc",
+        "hudochenkov",
+        "prettierrc",
+        "releaserc"
+    ],
+    "ignorePaths": [
+        "node_modules/**",
+        "build/**",
+        "package.json",
+        "package-lock.json",
+        "yarn.lock",
+
+        "**/*.log"
+    ]
+}
