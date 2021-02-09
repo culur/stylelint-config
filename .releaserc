@@ -1,0 +1,23 @@
+{
+    "branches": ["master", "next"],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        [
+            "@semantic-release/changelog",
+            { "changelogTitle": "# Typescript Library Changelog." }
+        ],
+        [
+            "@semantic-release/exec",
+            { "prepareCmd": "yarn prettier CHANGELOG.md --write" }
+        ],
+        ["@semantic-release/npm", { "tarballDir": "pack" }],
+        ["@semantic-release/github", { "assets": ["pack/*.tgz"] }],
+        [
+            "@semantic-release/git",
+            {
+                "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
+        ]
+    ]
+}
