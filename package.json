@@ -20,14 +20,17 @@
     "fix": "run-s fix:*",
     "fix:prettier": "prettier ** --write --ignore-path node_modules/@culur/prettier-config/.prettierignore",
     "test": "run-s test:*",
-    "test:prettier": "prettier ** --list-different --ignore-path node_modules/@culur/prettier-config/.prettierignore"
+    "test:prettier": "prettier ** --list-different --ignore-path node_modules/@culur/prettier-config/.prettierignore",
+    "test:spelling": "cspell **"
   },
   "engines": {
     "node": ">=12"
   },
   "dependencies": {},
   "devDependencies": {
+    "@cspell/dict-vi-vn": "^1.0.20",
     "@culur/prettier-config": "^0.1.0",
+    "cspell": "^5.1.3",
     "cz-conventional-changelog": "^3.3.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.2.1"
