@@ -22,4 +22,4 @@ const config: Partial<Configuration> = {
     },
 };
 
-export default config;
+export = config;
