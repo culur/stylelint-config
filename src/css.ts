@@ -12,8 +12,6 @@ const config: Partial<Configuration> = {
     ],
     plugins: ['stylelint-order'],
     rules: {
-        indentation: 4,
-
         'at-rule-no-unknown': atRuleNoUnknown,
         'at-rule-empty-line-before': atRuleEmptyLineBefore,
 
