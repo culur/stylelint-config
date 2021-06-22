@@ -1,5 +1,11 @@
 # Typescript Library Changelog.
 
+## [0.1.2](https://github.com/culur/stylelint-config/compare/v0.1.1...v0.1.2) (2021-06-22)
+
+### Bug Fixes
+
+- remove css indentation rule ([3871f0c](https://github.com/culur/stylelint-config/commit/3871f0c899c11a9849330d46ee69ba9494eb5a85))
+
 ## [0.1.1](https://github.com/culur/stylelint-config/compare/v0.1.0...v0.1.1) (2021-03-17)
 
 ### Bug Fixes
