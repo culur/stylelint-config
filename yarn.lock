@@ -919,11 +919,12 @@
   resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
   integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
 
-"@types/stylelint@^9.10.1":
-  version "9.10.1"
-  resolved "https://registry.yarnpkg.com/@types/stylelint/-/stylelint-9.10.1.tgz#211832381e43fd0774217b59f02ab389d82643ea"
-  integrity sha512-au+n/CjGixNopJmh51GeZSkqf/ahwOBkzcvizHPe3flfwWag0T+/L7uHD0Hjx7ZhmXGFSEwOCqEybD4domcyRw==
+"@types/stylelint@^13.13.0":
+  version "13.13.0"
+  resolved "https://registry.yarnpkg.com/@types/stylelint/-/stylelint-13.13.0.tgz#8e0d99f1133b235f6ac629a8e6162e61e6854e34"
+  integrity sha512-/PxG8arC6lNjOGQ2QkWr60v9yQ6vnyOdDmyoM8ysU1UCdTm71+IztrHm5jCTJob9/HTqGNcemwsCDo0mjdjSzA==
   dependencies:
+    globby "11.x.x"
     postcss "7.x.x"
 
 "@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2":
@@ -2879,7 +2880,7 @@ globals@^11.1.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
-globby@^11.0.0, globby@^11.0.1, globby@^11.0.3:
+globby@11.x.x, globby@^11.0.0, globby@^11.0.1, globby@^11.0.3:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/globby/-/globby-11.0.4.tgz#2cbaff77c2f2a62e71e9b2813a67b97a3a3001a5"
   integrity sha512-9O4MVG9ioZJ08ffbcyVYyLOJLk5JQ688pJ4eMGLpdWLHq/Wr1D9BlriLQyL0E+jbkuePVZXYFj47QM/v093wHg==
