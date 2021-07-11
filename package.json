@@ -58,7 +58,7 @@
     "@babel/cli": "^7.12.13",
     "@babel/core": "^7.12.13",
     "@cspell/dict-vi-vn": "^1.0.20",
-    "@culur/prettier-config": "^0.1.0",
+    "@culur/prettier-config": "^0.2.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",

@@ -472,10 +472,10 @@
   resolved "https://registry.yarnpkg.com/@cspell/dict-vi-vn/-/dict-vi-vn-1.0.20.tgz#8c0c6fd4ea94c7a794e2a2cce40042e04261b0b3"
   integrity sha512-+WGWQsbY7iMGkY9eEADj8Ptsp2aXdvFs+2ZDQ7sPOnSomJH5+eE7imSS+mtVf2bmaiDmhD6He44Oy4ebn8tgNg==
 
-"@culur/prettier-config@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@culur/prettier-config/-/prettier-config-0.1.0.tgz#45518deef6b24cf52f09e03155d9b020f7494c14"
-  integrity sha512-5rdBiIy9kY4tUQt/nyQmxH7QYgkaigAmvhVfq0VSjPBGq0/Ei71orJzElIqiDHbFxBv7NWxzE4FmVDftvI75+g==
+"@culur/prettier-config@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@culur/prettier-config/-/prettier-config-0.2.0.tgz#9b2fa212a00f7a8266f1318df0a27c94b5e56aa4"
+  integrity sha512-ZUOBdFTkac1EpYQmPxOw650iJBShVBxqrI3il1+rCwOXIBYiMChaYLushdnBzsJKy259cF0hd3V74yEX9k6X2Q==
 
 "@fullhuman/postcss-purgecss@^4.0.3":
   version "4.0.3"
