@@ -1,5 +1,13 @@
 # Typescript Library Changelog.
 
+# [0.2.0](https://github.com/culur/stylelint-config/compare/v0.1.2...v0.2.0) (2021-07-12)
+
+### Features
+
+- **scss:** add `comment` rules ([731d1b3](https://github.com/culur/stylelint-config/commit/731d1b3b0d2ee6e42a5841c1f8d95b833d77ffc3))
+- **scss:** add `import` & `comment` rules ([b844942](https://github.com/culur/stylelint-config/commit/b844942706a22a64c0cfcd38d94d070f235fe88f))
+- **scss:** add `import` rules ([2ec4875](https://github.com/culur/stylelint-config/commit/2ec4875e08576190073b32fe23e2d650b2956154))
+
 ## [0.1.2](https://github.com/culur/stylelint-config/compare/v0.1.1...v0.1.2) (2021-06-22)
 
 ### Bug Fixes
