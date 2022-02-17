@@ -65,7 +65,6 @@
     "@semantic-release/github": "^8.0.2",
     "@semantic-release/npm": "^8.0.3",
     "@types/node": "^17.0.18",
-    "@types/stylelint": "^13.13.1",
     "babel-plugin-module-resolver": "^4.1.0",
     "cspell": "^5.6.6",
     "cz-conventional-changelog": "^3.3.0",
