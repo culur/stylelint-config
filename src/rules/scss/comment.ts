@@ -1,6 +1,6 @@
-import { Configuration } from 'stylelint';
+import type { Config } from 'stylelint';
 
-export const scssComment: Configuration['rules'] = {
+export const scssComment: Config['rules'] = {
     'scss/comment-no-empty': true,
     'scss/double-slash-comment-empty-line-before': [
         'always',
