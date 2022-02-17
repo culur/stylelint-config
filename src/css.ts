@@ -1,9 +1,9 @@
-import type { Configuration } from 'stylelint';
+import type { Config } from 'stylelint';
 import { atRuleEmptyLineBefore } from './rules/at-rule-empty-line-before';
 import { atRuleNoUnknown } from './rules/at-rule-no-unknown';
 import { order, propertiesOrder } from './rules/order';
 
-const config: Partial<Configuration> = {
+const config: Partial<Config> = {
     extends: [
         'stylelint-config-standard',
         'stylelint-config-hudochenkov/dollar-variables',
