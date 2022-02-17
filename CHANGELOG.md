@@ -1,5 +1,11 @@
 # Typescript Library Changelog.
 
+# [0.3.0](https://github.com/culur/stylelint-config/compare/v0.2.0...v0.3.0) (2022-02-17)
+
+### Features
+
+- **deps:** use stylelint ([08d3acb](https://github.com/culur/stylelint-config/commit/08d3acb42b58338f3a139314bc7958581d48aa51))
+
 # [0.2.0](https://github.com/culur/stylelint-config/compare/v0.1.2...v0.2.0) (2021-07-12)
 
 ### Features
