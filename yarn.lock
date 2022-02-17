@@ -480,10 +480,10 @@
   resolved "https://registry.yarnpkg.com/@cspell/dict-typescript/-/dict-typescript-1.0.19.tgz#44f3ad1c93ffc89ebf98fa6964e1634e6612fc30"
   integrity sha512-qmJApzoVskDeJnLZzZMaafEDGbEg5Elt4c3Mpg49SWzIHm1N4VXCp5CcFfHsOinJ30dGrs3ARAJGJZIw56kK6A==
 
-"@cspell/dict-vi-vn@^1.0.20":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-vi-vn/-/dict-vi-vn-1.0.20.tgz#8c0c6fd4ea94c7a794e2a2cce40042e04261b0b3"
-  integrity sha512-+WGWQsbY7iMGkY9eEADj8Ptsp2aXdvFs+2ZDQ7sPOnSomJH5+eE7imSS+mtVf2bmaiDmhD6He44Oy4ebn8tgNg==
+"@cspell/dict-vi-vn@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-vi-vn/-/dict-vi-vn-2.0.0.tgz#d20a096da2a66f23a0ede33b2b83e3267584e2f5"
+  integrity sha512-EpnG4YFDKKEcy5yBJyMNfYNEaAGBSB7h9U/lYZLRXYkuJ8qbhTd8d1EKx8ayJX2SXAgJKN5VXbkyyCc9DsTFyw==
 
 "@cspell/dict-vue@^2.0.1":
   version "2.0.1"

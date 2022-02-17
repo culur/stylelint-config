@@ -57,7 +57,7 @@
   "devDependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",
-    "@cspell/dict-vi-vn": "^1.0.20",
+    "@cspell/dict-vi-vn": "^2.0.0",
     "@culur/prettier-config": "^0.2.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/exec": "^6.0.2",
