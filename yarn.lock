@@ -5885,10 +5885,10 @@ style-search@^0.1.0:
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
   integrity sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=
 
-stylelint-config-hudochenkov@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-hudochenkov/-/stylelint-config-hudochenkov-5.0.0.tgz#40e71ec5c7c5a7eba95d1fdb92e9575e55847c6f"
-  integrity sha512-XudW7b/NEmoGo5g0Dy6ipnOSMknl6he+FgLS4QxL/QsV7gAAWwoIfriqke1+rZgrmLE89OY/DM3IQVuR7stubw==
+stylelint-config-hudochenkov@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-hudochenkov/-/stylelint-config-hudochenkov-6.0.1.tgz#66a013c84b3c46b21396b0f5c58f32fb15a9e3bb"
+  integrity sha512-jCiHBTn9FZwZ2SZgsBgIIyqIfAwuwv3AnxEvj1ITLTTHB0g53opW5E8aKSAUPgmJpXseDTWWrGODiUjTSPj1AA==
 
 stylelint-config-prettier@^9.0.3:
   version "9.0.3"
