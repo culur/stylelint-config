@@ -1,4 +1,5 @@
 import type { Config } from 'stylelint';
+import { htmlOverrides } from './overrides/customSyntax';
 import { atRuleEmptyLineBefore } from './rules/at-rule-empty-line-before';
 import { atRuleNoUnknown } from './rules/at-rule-no-unknown';
 import { order, propertiesOrder } from './rules/order';
@@ -18,6 +19,7 @@ const config: Partial<Config> = {
         'order/properties-order': propertiesOrder,
         'order/order': order,
     },
+    overrides: [htmlOverrides],
 };
 
 export = config;
