@@ -1,5 +1,13 @@
-import css from './css';
-import scss from './scss';
-import { hasSass } from './utils/resolve';
+import type { Config } from 'stylelint';
+import { hasSass, hasVue } from './utils/resolve';
 
-export = hasSass ? scss : css;
+const config: Config = {
+    extends: [
+        'stylelint-config-html',
+        './css',
+        ...(hasSass ? ['./scss'] : []),
+        ...(hasVue ? ['./vue'] : []),
+    ],
+};
+
+export = config;
