@@ -4,10 +4,11 @@ import { hasTailwindCSS } from '~/utils/resolve';
 const directives = [
     'tailwind',
     'layer',
-
     'apply',
-    'variants',
 
+    // https://v2.tailwindcss.com/docs/functions-and-directives
+    // backwards compatible for v2
+    'variants',
     'responsive',
     'screen',
 ];
