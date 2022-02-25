@@ -5,7 +5,7 @@
         "@semantic-release/release-notes-generator",
         [
             "@semantic-release/changelog",
-            { "changelogTitle": "# Typescript Library Changelog." }
+            { "changelogTitle": "# `@culur/stylelint-config` changelog." }
         ],
         [
             "@semantic-release/exec",

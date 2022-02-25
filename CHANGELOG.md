@@ -1,4 +1,4 @@
-# Typescript Library Changelog.
+# `@culur/stylelint-config` changelog.
 
 # [0.2.0](https://github.com/culur/stylelint-config/compare/v0.1.2...v0.2.0) (2021-07-12)
 
