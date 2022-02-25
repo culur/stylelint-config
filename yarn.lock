@@ -704,6 +704,7 @@ __metadata:
     "@semantic-release/npm": ^9.0.0
     "@types/node": ^17.0.21
     babel-plugin-module-resolver: ^4.1.0
+    conventional-changelog-conventionalcommits: ^4.6.3
     cspell: ^5.18.5
     cz-conventional-changelog: ^3.3.0
     dotenv-cli: ^5.0.0
@@ -2198,6 +2199,17 @@ __metadata:
     compare-func: ^2.0.0
     q: ^1.5.1
   checksum: 552db8762d210a5172b1ad8cd95312e2e2a0483ba43f8d30b075a56ccf05231fdca1d4d5843028d43bec6bc7f903f480005efc5386587321a15a1fc4d2b73016
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-conventionalcommits@npm:^4.6.3":
+  version: 4.6.3
+  resolution: "conventional-changelog-conventionalcommits@npm:4.6.3"
+  dependencies:
+    compare-func: ^2.0.0
+    lodash: ^4.17.15
+    q: ^1.5.1
+  checksum: 7b8e8a21ebb56f9aaa510e12917b7c609202072c3e71089e0a09630c37c2e8146cdb04364809839b0e3eb55f807fe84d03b2079500b37f6186d505848be5c562
   languageName: node
   linkType: hard
 
