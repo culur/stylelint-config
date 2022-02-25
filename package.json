@@ -87,8 +87,5 @@
   },
   "peerDependencies": {
     "stylelint": ">=13.13.1"
-  },
-  "optionalDependencies": {
-    "tailwindcss": "^3.0.23"
   }
 }
