@@ -1,7 +1,7 @@
 import config from 'stylelint-config-hudochenkov/order';
 import { hasTailwindCSS } from '~/utils/resolve';
 
-export const propertiesOrder = config.rules['order/properties-order'];
+export const propertiesOrder = config.rules?.['order/properties-order'];
 export const order = hasTailwindCSS
     ? [
           [
@@ -21,4 +21,4 @@ export const order = hasTailwindCSS
           ],
           { severity: 'warning' },
       ]
-    : config.rules['order/order'];
+    : config.rules?.['order/order'];
