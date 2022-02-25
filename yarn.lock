@@ -710,6 +710,7 @@ __metadata:
     markdownlint-cli: ^0.31.1
     npm-run-all: ^4.1.5
     postcss-html: ^1.3.0
+    postcss-sass: ^0.5.0
     postcss-scss: ^4.0.3
     prettier: ^2.5.1
     rimraf: ^3.0.2
@@ -3507,6 +3508,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gonzales-pe@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "gonzales-pe@npm:4.3.0"
+  dependencies:
+    minimist: ^1.2.5
+  bin:
+    gonzales: bin/gonzales.js
+  checksum: 49d60fc49ad35639e5d55923c1516d3ec2e4de5e6e5913ec3458a479b66623e54a060d568295349b0bb9f96ee970c473ff984d4b82a5cfeaf736c55f0d6dc3b7
+  languageName: node
+  linkType: hard
+
 "graceful-fs@npm:*":
   version: 4.2.9
   resolution: "graceful-fs@npm:4.2.9"
@@ -5971,6 +5983,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-sass@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "postcss-sass@npm:0.5.0"
+  dependencies:
+    gonzales-pe: ^4.3.0
+    postcss: ^8.2.14
+  checksum: 615e53ba0f593b7ac51a4c4ffbe673487e3c0c2bb3f794e9110671f11db62eb166d9610cc1ef7b4d3b41adf6ca52b15b16fb7ba391dab0da1cfaf10a9b28883b
+  languageName: node
+  linkType: hard
+
 "postcss-scss@npm:^4.0.2, postcss-scss@npm:^4.0.3":
   version: 4.0.3
   resolution: "postcss-scss@npm:4.0.3"
@@ -6023,7 +6045,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.3.11, postcss@npm:^8.4.0, postcss@npm:^8.4.6":
+"postcss@npm:^8.2.14, postcss@npm:^8.3.11, postcss@npm:^8.4.0, postcss@npm:^8.4.6":
   version: 8.4.7
   resolution: "postcss@npm:8.4.7"
   dependencies:
