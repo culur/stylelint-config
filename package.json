@@ -27,16 +27,16 @@
     "README.md"
   ],
   "scripts": {
-    "build": "run-s build:*",
+    "build": "run-s 'build:*'",
     "build:tsc": "tsc",
     "build:babel": "babel build --out-dir build --source-maps inline",
     "clean": "run-s clean:*",
     "clean:build": "rimraf build",
-    "fix": "run-s fix:*",
+    "fix": "run-s 'fix:*'",
     "fix:md": "markdownlint **/*.md --fix",
     "fix:css": "stylelint **/*.{vue,tsx,css,scss} --allow-empty-input --fix",
     "fix:prettier": "prettier ** --write --ignore-path node_modules/@culur/prettier-config/.prettierignore",
-    "test": "run-s test:*",
+    "test": "run-s 'test:*'",
     "test:md": "markdownlint **/*.md",
     "test:css": "stylelint **/*.{vue,tsx,css,scss} --allow-empty-input",
     "test:prettier": "prettier ** --list-different --ignore-path node_modules/@culur/prettier-config/.prettierignore",
@@ -44,8 +44,9 @@
     "release": "semantic-release",
     "release:dry": "dotenv semantic-release --dry-run"
   },
+  "packageManager": "yarn@3.2.0",
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "dependencies": {
     "stylelint-config-hudochenkov": "^5.0.0",
