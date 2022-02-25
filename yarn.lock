@@ -713,6 +713,7 @@ __metadata:
     rimraf: ^3.0.2
     semantic-release: ^19.0.2
     stylelint: ^14.5.3
+    stylelint-config-html: ^1.0.0
     stylelint-config-hudochenkov: ^6.0.1
     stylelint-config-prettier: ^9.0.3
     stylelint-config-standard: ^25.0.0
@@ -6945,6 +6946,16 @@ __metadata:
   version: 0.1.0
   resolution: "style-search@npm:0.1.0"
   checksum: 3cfefe335033aad6d47da0725cb48f5db91a73935954c77eab77d9e415e6668cdb406da4a4f7ef9f1aca77853cf5ba7952c45e869caa5bd6439691d88098d468
+  languageName: node
+  linkType: hard
+
+"stylelint-config-html@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "stylelint-config-html@npm:1.0.0"
+  peerDependencies:
+    postcss-html: ^1.0.0
+    stylelint: ">=14.0.0"
+  checksum: 630a7b1dba4f05ba0eeb0b5fcf13ff2be7a0954367bc1bb990f0898a3e22ada4e80ca7bd8b5f796691e084e53b586362eb35bff747d408e81aacd166853fdb1f
   languageName: node
   linkType: hard
 
