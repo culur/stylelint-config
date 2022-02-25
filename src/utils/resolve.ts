@@ -9,3 +9,4 @@ function resolve(lib: string) {
 export const hasTailwindCSS = resolve('tailwindcss');
 export const hasSass =
     resolve('sass') || resolve('dart-sass') || resolve('node-sass');
+export const hasVue = resolve('vue');
