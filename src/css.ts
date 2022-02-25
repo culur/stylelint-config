@@ -11,6 +11,7 @@ const config: Config = {
     ],
     plugins: ['stylelint-order'],
     rules: {
+        indentation: null,
         'at-rule-no-unknown': atRuleNoUnknown,
 
         'order/properties-order': propertiesOrder,
