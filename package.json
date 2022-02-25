@@ -87,5 +87,8 @@
   },
   "peerDependencies": {
     "stylelint": ">=13.13.1"
+  },
+  "resolutions": {
+    "npm/chalk": "^4.1.2"
   }
 }
