@@ -1,7 +1,6 @@
 function resolve(lib: string) {
     try {
-        require.resolve(lib);
-        return true;
+        return !!require.main?.require(lib);
     } catch (e) {
         return false;
     }
