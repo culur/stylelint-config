@@ -1,9 +1,9 @@
-import type { Configuration } from 'stylelint';
+import type { Config } from 'stylelint';
 import { atRuleNoUnknown } from './rules/at-rule-no-unknown';
 import { scssComment } from './rules/scss/comment';
 import { scssImport } from './rules/scss/import';
 
-const config: Partial<Configuration> = {
+const config: Config = {
     extends: ['./css'],
     plugins: ['stylelint-scss'],
     rules: {
