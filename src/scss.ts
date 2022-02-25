@@ -11,6 +11,16 @@ const config: Config = {
         'at-rule-no-unknown': null,
         'scss/at-rule-no-unknown': atRuleNoUnknown,
     },
+    overrides: [
+        {
+            files: ['*.scss', '**/*.scss'],
+            customSyntax: 'postcss-scss',
+        },
+        {
+            files: ['*.sass', '**/*.sass'],
+            customSyntax: 'postcss-sass',
+        },
+    ],
 };
 
 export = config;
