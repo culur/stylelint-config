@@ -703,7 +703,6 @@ __metadata:
     "@semantic-release/github": ^8.0.2
     "@semantic-release/npm": ^9.0.0
     "@types/node": ^17.0.21
-    "@types/stylelint": ^13.13.1
     babel-plugin-module-resolver: ^4.1.0
     cspell: ^5.18.5
     cz-conventional-changelog: ^3.3.0
@@ -1319,16 +1318,6 @@ __metadata:
   version: 0.12.1
   resolution: "@types/retry@npm:0.12.1"
   checksum: 5f46b2556053655f78262bb33040dc58417c900457cc63ff37d6c35349814471453ef511af0cec76a540c601296cd2b22f64bab1ab649c0dacc0223765ba876c
-  languageName: node
-  linkType: hard
-
-"@types/stylelint@npm:^13.13.1":
-  version: 13.13.1
-  resolution: "@types/stylelint@npm:13.13.1"
-  dependencies:
-    globby: 11.x.x
-    postcss: 7.x.x
-  checksum: 86add6ce35e1a53e7332074bc92672ca85b65374ad2c6745918a30c47697eefec700ebb8c0c3c66e38adf8f0b69cf216ef846e14138f52c77e6428b645c9ef1b
   languageName: node
   linkType: hard
 
@@ -3426,7 +3415,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:11.x.x, globby@npm:^11.0.0, globby@npm:^11.0.1":
+"globby@npm:^11.0.0, globby@npm:^11.0.1":
   version: 11.0.4
   resolution: "globby@npm:11.0.4"
   dependencies:
@@ -5945,17 +5934,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:7.x.x":
-  version: 7.0.36
-  resolution: "postcss@npm:7.0.36"
-  dependencies:
-    chalk: ^2.4.2
-    source-map: ^0.6.1
-    supports-color: ^6.1.0
-  checksum: 4cfc0989b9ad5d0e8971af80d87f9c5beac5c84cb89ff22ad69852edf73c0a2fa348e7e0a135b5897bf893edad0fe86c428769050431ad9b532f072ff530828d
-  languageName: node
-  linkType: hard
-
 "postcss@npm:^8.3.11, postcss@npm:^8.4.6":
   version: 8.4.7
   resolution: "postcss@npm:8.4.7"
@@ -7095,15 +7073,6 @@ __metadata:
   dependencies:
     has-flag: ^3.0.0
   checksum: 95f6f4ba5afdf92f495b5a912d4abee8dcba766ae719b975c56c084f5004845f6f5a5f7769f52d53f40e21952a6d87411bafe34af4a01e65f9926002e38e1dac
-  languageName: node
-  linkType: hard
-
-"supports-color@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "supports-color@npm:6.1.0"
-  dependencies:
-    has-flag: ^3.0.0
-  checksum: 74358f9535c83ee113fbaac354b11e808060f6e7d8722082ee43af3578469134e89d00026dce2a6b93ce4e5b89d0e9a10f638b2b9f64c7838c2fb2883a47b3d5
   languageName: node
   linkType: hard
 
