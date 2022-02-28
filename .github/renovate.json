@@ -1,0 +1,9 @@
+{
+    "extends": [
+        "config:base",
+        ":preserveSemverRanges",
+        ":semanticCommitTypeAll(build)"
+    ],
+    "baseBranches": ["dependency"],
+    "prHourlyLimit": 10
+}
