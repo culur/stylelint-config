@@ -62,6 +62,7 @@
             "@semantic-release/exec",
             { "prepareCmd": "yarn prettier CHANGELOG.md --write" }
         ],
+        ["@semantic-release/exec", { "prepareCmd": "yarn test:spelling" }],
         ["@semantic-release/npm", { "tarballDir": "pack" }],
         ["@semantic-release/github", { "assets": ["pack/*.tgz"] }],
         [
