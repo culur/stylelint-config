@@ -1,9 +1,6 @@
 {
-    "extends": [
-        "config:base",
-        ":preserveSemverRanges",
-        ":semanticCommitTypeAll(build)"
-    ],
+    "extends": ["config:base", ":semanticCommitTypeAll(build)"],
     "baseBranches": ["dependency"],
-    "prHourlyLimit": 10
+    "prHourlyLimit": 10,
+    "rangeStrategy": "bump"
 }
