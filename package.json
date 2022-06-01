@@ -46,7 +46,7 @@
   },
   "packageManager": "yarn@3.2.1",
   "engines": {
-    "node": ">=v16.14.2"
+    "node": ">=v16.15.0"
   },
   "dependencies": {
     "postcss-html": "^1.4.1",
