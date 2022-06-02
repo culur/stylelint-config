@@ -1,5 +1,21 @@
 # `@culur/stylelint-config` changelog.
 
+## [1.2.0](https://github.com/culur/stylelint-config/compare/v1.1.0...v1.2.0) (2022-06-02)
+
+### Dependencies
+
+- **deps:** update actions/checkout action to v3 ([1cf131a](https://github.com/culur/stylelint-config/commit/1cf131a0d48073fe7b07fb176e33a91ae324ccbd))
+- **deps:** update actions/setup-node action to v3 ([8aba056](https://github.com/culur/stylelint-config/commit/8aba056a78c2e4656a6e21f3bc8da7b7133cf7e6))
+- **deps:** update dependencies ([#377](https://github.com/culur/stylelint-config/issues/377)) ([681d27b](https://github.com/culur/stylelint-config/commit/681d27b781468a387d6ee5a7620ecfd6032f510e))
+- **deps:** update dependency @culur/prettier-config to v1 ([61ca948](https://github.com/culur/stylelint-config/commit/61ca948192de46420e143369d6266bf3598100cc))
+- **deps:** update dependency postcss-html to ^1.4.1 ([19c7274](https://github.com/culur/stylelint-config/commit/19c72743b70ce6710a5d684cfa1057d708e9893a))
+- **deps:** update dependency postcss-scss to ^4.0.4 ([d6dbd57](https://github.com/culur/stylelint-config/commit/d6dbd57d636334fe8927dc0c0e5872d6b56aaa65))
+- **deps:** update dependency stylelint to v14.8.5 ([8d22d43](https://github.com/culur/stylelint-config/commit/8d22d43dd827d4974ce58f8857f95666e8555df9))
+- **deps:** update dependency stylelint-config-hudochenkov to v7 ([80da425](https://github.com/culur/stylelint-config/commit/80da42559f9da5d8948d40d1bf40df93f07c3d00))
+- **deps:** update dependency stylelint-config-standard-scss to v4 ([04b5120](https://github.com/culur/stylelint-config/commit/04b51209c3417b92efbe9016055cfa751db5187f))
+- **deps:** update dependency stylelint-scss to ^4.2.0 ([e82aba1](https://github.com/culur/stylelint-config/commit/e82aba141568cf129decbfb616ba91b1182ca5e0))
+- **deps:** update yarn to v3.2.1 ([b478774](https://github.com/culur/stylelint-config/commit/b4787748af1b3c289e4aefbb3c2f57546dbbbff9))
+
 ## [1.0.0](https://github.com/culur/stylelint-config/compare/v0.2.0...v1.0.0) (2022-02-25)
 
 ### ⚠ BREAKING CHANGES
