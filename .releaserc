@@ -46,8 +46,8 @@
                         { "type": "test", "section": "Tests", "hidden": true },
                         {
                             "type": "build",
-                            "section": "Build System",
-                            "hidden": true
+                            "scope": "deps",
+                            "section": "Dependencies"
                         },
                         { "type": "ci", "section": "CI", "hidden": true }
                     ]
