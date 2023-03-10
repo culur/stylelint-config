@@ -855,7 +855,7 @@ __metadata:
     stylelint-config-html: ^1.0.0
     stylelint-config-hudochenkov: ^7.0.1
     stylelint-config-prettier: ^9.0.5
-    stylelint-config-standard: ^25.0.0
+    stylelint-config-standard: ^30.0.1
     stylelint-config-standard-scss: ^4.0.0
     stylelint-config-standard-vue: ^1.0.0
     stylelint-order: ^5.0.0
@@ -7170,6 +7170,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"stylelint-config-recommended@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "stylelint-config-recommended@npm:10.0.1"
+  peerDependencies:
+    stylelint: ^15.0.0
+  checksum: 585766be57c2f22d49f76f27b9198a0e1ec812ea56263f082cfa0aea05c50ede68250da5a50ae4d2eb19129c973ca033a6cad9a7535d2f81c78b4caf1e2eea0f
+  languageName: node
+  linkType: hard
+
 "stylelint-config-standard-scss@npm:^4.0.0":
   version: 4.0.0
   resolution: "stylelint-config-standard-scss@npm:4.0.0"
@@ -7204,6 +7213,17 @@ __metadata:
   peerDependencies:
     stylelint: ^14.4.0
   checksum: bfd5773f47ea7fcddba972037d6dd32d1fb900c2ca592a313fe1a28df054ef465b11e6e53fe6e87bbf0c356ab33a7a4eecc447cf7a1bd39c9b50c7b4bfb48d81
+  languageName: node
+  linkType: hard
+
+"stylelint-config-standard@npm:^30.0.1":
+  version: 30.0.1
+  resolution: "stylelint-config-standard@npm:30.0.1"
+  dependencies:
+    stylelint-config-recommended: ^10.0.1
+  peerDependencies:
+    stylelint: ^15.0.0
+  checksum: db0cce181b654df4960d0c03129f3904c775628cb29a7aadfcb995034c234797b10db50640c85085bf0f2e5fbffc654b20a8c2be38c26ef670691fe7e8c86e86
   languageName: node
   linkType: hard
 
