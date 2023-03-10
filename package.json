@@ -82,11 +82,11 @@
     "prettier": "^2.8.4",
     "rimraf": "^3.0.2",
     "semantic-release": "^19.0.2",
-    "stylelint": "^14.16.1",
+    "stylelint": "^15.2.0",
     "typescript": "^4.7.2"
   },
   "peerDependencies": {
-    "stylelint": ">=14.16.1"
+    "stylelint": ">=15.2.0"
   },
   "resolutions": {
     "npm/chalk": "^4.1.2"
