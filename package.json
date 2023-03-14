@@ -62,8 +62,8 @@
     "stylelint-scss": "^4.4.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.17.10",
-    "@babel/core": "^7.18.2",
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
     "@cspell/dict-vi-vn": "^2.0.0",
     "@culur/prettier-config": "^1.2.0",
     "@semantic-release/changelog": "^6.0.2",
