@@ -1,5 +1,7 @@
 {
     "extends": ["config:base", ":semanticCommitTypeAll(build)"],
+    "timezone": "America/Los_Angeles",
+    "schedule": ["every weekend"],
     "baseBranches": ["dependency"],
     "prHourlyLimit": 10,
     "rangeStrategy": "bump",
