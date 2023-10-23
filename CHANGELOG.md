@@ -1,5 +1,33 @@
 # `@culur/stylelint-config` changelog.
 
+## [1.3.0](https://github.com/culur/stylelint-config/compare/v1.2.0...v1.3.0) (2023-10-23)
+
+### Dependencies
+
+- **deps:** update actions/checkout action to v4 ([df64d67](https://github.com/culur/stylelint-config/commit/df64d676c823eaa6801e8b777a4d4a9370da27c7))
+- **deps:** update dependencies ([d97925c](https://github.com/culur/stylelint-config/commit/d97925cace3ccdb86b3bdaa70f07dcc6d6e933d7))
+- **deps:** update dependencies ([62ef457](https://github.com/culur/stylelint-config/commit/62ef45711e628ab451fe1757fb4987cadcc98e00))
+- **deps:** update dependency chalk to v5 ([65bdd94](https://github.com/culur/stylelint-config/commit/65bdd946a468dc895b137af1a0bc800fc6955953))
+- **deps:** update dependency postcss-html to ^1.5.0 ([b0171e0](https://github.com/culur/stylelint-config/commit/b0171e0c10bbbfabb73a46f96dc01af4d12ef5bc))
+- **deps:** update dependency postcss-scss to ^4.0.9 ([87201de](https://github.com/culur/stylelint-config/commit/87201def4069c22c9b168536fc4b16c78dd463dc))
+- **deps:** update dependency stylelint to v14.15.0 ([25a8c2a](https://github.com/culur/stylelint-config/commit/25a8c2aa1b06233be6a9f267b184fd700196d2e1))
+- **deps:** update dependency stylelint to v14.16.1 ([fc9cbf6](https://github.com/culur/stylelint-config/commit/fc9cbf6b99483348e5b63fe2ed807c6c6d21293a))
+- **deps:** update dependency stylelint to v15 ([a60fcec](https://github.com/culur/stylelint-config/commit/a60fcec3341b75a8cf370a1798bd5fc7f36e2b91))
+- **deps:** update dependency stylelint to v15.11.0 ([a6c1940](https://github.com/culur/stylelint-config/commit/a6c19408e9aafa5c329ff888717b41285f4c9cf6))
+- **deps:** update dependency stylelint-config-html to ^1.1.0 ([e5924f8](https://github.com/culur/stylelint-config/commit/e5924f874654266cf3e642ef1b26c92731dd4361))
+- **deps:** update dependency stylelint-config-hudochenkov to v9 ([3be0597](https://github.com/culur/stylelint-config/commit/3be059796ece2b571524bbcf6934095e39d4bc2e))
+- **deps:** update dependency stylelint-config-prettier to ^9.0.4 ([4667a4f](https://github.com/culur/stylelint-config/commit/4667a4fb2cd65f804173e6528797929e463c7dbf))
+- **deps:** update dependency stylelint-config-prettier to ^9.0.5 ([0019a21](https://github.com/culur/stylelint-config/commit/0019a21bc716338398a9cc97296beec413ed51ec))
+- **deps:** update dependency stylelint-config-standard to v34 ([11f88d6](https://github.com/culur/stylelint-config/commit/11f88d6d35304e24671409d187f7c2df470d2fc4))
+- **deps:** update dependency stylelint-config-standard-scss to v11 ([15cebb6](https://github.com/culur/stylelint-config/commit/15cebb6573de17bb01a650ee2a4ddf1552e009c8))
+- **deps:** update dependency stylelint-order to v6 ([22e9f61](https://github.com/culur/stylelint-config/commit/22e9f61f127ed1e107f1be6638afcf141112530e))
+- **deps:** update dependency stylelint-scss to ^4.4.0 ([c43b73b](https://github.com/culur/stylelint-config/commit/c43b73b039f7da5653a5d4860248f1624e990d0a))
+- **deps:** update dependency stylelint-scss to v5 ([aeee151](https://github.com/culur/stylelint-config/commit/aeee151eb3ddb0d103ab7a2bec15938260631b51))
+- **deps:** update node.js to >=14.21.3 ([97aa5e9](https://github.com/culur/stylelint-config/commit/97aa5e98d3b1972ae4ef1d3b004844e1a5a954f8))
+- **deps:** update node.js to v18 ([c92faf1](https://github.com/culur/stylelint-config/commit/c92faf1c3b7050d1baada847e253293310da0679))
+- **deps:** update yarn to v3.4.1 ([ba7016e](https://github.com/culur/stylelint-config/commit/ba7016e9367b51a8d560c012fe192177cbe4e803))
+- **deps:** update yarn to v3.6.4 ([e898686](https://github.com/culur/stylelint-config/commit/e8986868c8f7f2ff05313012e220efbab5a15074))
+
 ## [1.2.0](https://github.com/culur/stylelint-config/compare/v1.1.0...v1.2.0) (2022-06-02)
 
 ### Dependencies
