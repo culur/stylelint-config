@@ -44,7 +44,7 @@
     "release": "semantic-release",
     "release:dry": "dotenv semantic-release --dry-run"
   },
-  "packageManager": "yarn@3.6.4",
+  "packageManager": "yarn@4.0.0",
   "engines": {
     "node": ">=18.18.2"
   },
