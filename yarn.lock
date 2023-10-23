@@ -868,7 +868,7 @@ __metadata:
     postcss-scss: ^4.0.4
     prettier: ^2.8.4
     rimraf: ^3.0.2
-    semantic-release: ^19.0.2
+    semantic-release: ^19.0.5
     stylelint: ^15.2.0
     stylelint-config-html: ^1.0.0
     stylelint-config-hudochenkov: ^7.0.1
@@ -6902,7 +6902,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^19.0.2":
+"semantic-release@npm:^19.0.5":
   version: 19.0.5
   resolution: "semantic-release@npm:19.0.5"
   dependencies:
