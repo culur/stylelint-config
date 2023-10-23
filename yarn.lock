@@ -753,10 +753,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-vi-vn@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@cspell/dict-vi-vn@npm:2.0.0"
-  checksum: f301a1aa241eb7b27c3be42db4fa3c4562056fb2246bc54a9d5c7347a63cfc6aaef97d5cac426af1787d18140c7b0c59bda62bdd5a14e42d8b246706708c0c43
+"@cspell/dict-vi-vn@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@cspell/dict-vi-vn@npm:3.0.0"
+  checksum: 0ad2e298be41f2156a8e6c655dbd78d08c31a0b9fa805187ab2c6b772dfb4fa728b1304eafc991dcf1a66a0e1934cad05ed8121475b4465bf46e2cd795881b45
   languageName: node
   linkType: hard
 
@@ -848,7 +848,7 @@ __metadata:
   dependencies:
     "@babel/cli": ^7.23.0
     "@babel/core": ^7.23.2
-    "@cspell/dict-vi-vn": ^2.0.0
+    "@cspell/dict-vi-vn": ^3.0.0
     "@culur/prettier-config": ^1.2.0
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/exec": ^6.0.3
