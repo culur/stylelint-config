@@ -912,7 +912,7 @@ __metadata:
     semantic-release: ^22.0.5
     stylelint: ^15.11.0
     stylelint-config-html: ^1.1.0
-    stylelint-config-hudochenkov: ^7.0.1
+    stylelint-config-hudochenkov: ^9.0.0
     stylelint-config-prettier: ^9.0.5
     stylelint-config-standard: ^34.0.0
     stylelint-config-standard-scss: ^11.0.0
@@ -8037,12 +8037,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-hudochenkov@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "stylelint-config-hudochenkov@npm:7.0.1"
+"stylelint-config-hudochenkov@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "stylelint-config-hudochenkov@npm:9.0.0"
   peerDependencies:
-    stylelint: ^14.7.1
-  checksum: ce1467a3e6eea2dcf50f775b616c953e6cede77b58b467bc3492428b0b366d0efca9189054d5f97cb481ee24c6486d2b8163c9f4f28165bc6cdf44e627cc0cde
+    stylelint: ^15.0.0
+    stylelint-order: ^6.0.2
+  checksum: a115934f4644bec01521d4593a03ba20c87d43455ed7151cd39dcdb2c5dad13533483d3cdd197a011d0f26b97e6573a20052c05977ae78f0d5453536793ffa5d
   languageName: node
   linkType: hard
 
