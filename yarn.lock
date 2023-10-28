@@ -876,10 +876,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@culur/prettier-config@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@culur/prettier-config@npm:1.2.0"
-  checksum: c3c6f8bf9aa61adacc2997b2625896bc8547cec8e0daa8fc71e0e9f8d2656b9d84fc382793c9722eb01686eaa199ead7e6a3da053d5d951d894554921d95b890
+"@culur/prettier-config@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@culur/prettier-config@npm:1.3.0"
+  checksum: 1677fd36952d72b90ef75f88cef2c3fc8cfe53f9b96667dab5c229373bd84a9b075735a13d5214070fef5f4bdcf48b64fa9ff7c0a2ef30eb2a1d73fe8d88d9ae
   languageName: node
   linkType: hard
 
@@ -890,7 +890,7 @@ __metadata:
     "@babel/cli": ^7.23.0
     "@babel/core": ^7.23.2
     "@cspell/dict-vi-vn": ^3.0.0
-    "@culur/prettier-config": ^1.2.0
+    "@culur/prettier-config": ^1.3.0
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/exec": ^6.0.3
     "@semantic-release/git": ^10.0.1
