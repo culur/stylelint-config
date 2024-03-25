@@ -74,7 +74,7 @@
     "@types/node": "^18.18.6",
     "babel-plugin-module-resolver": "^5.0.0",
     "conventional-changelog-conventionalcommits": "^7.0.2",
-    "cspell": "^7.3.8",
+    "cspell": "^8.6.1",
     "cz-conventional-changelog": "^3.3.0",
     "dotenv-cli": "^7.3.0",
     "markdownlint-cli": "^0.37.0",
